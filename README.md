@@ -11,3 +11,10 @@ CarRun
 CarExam실습하기
 
 ★ 싱글턴 복습하기
+
+onCreate()
+.execute
+ addGroup , .addComponent , .addGap , .addContainerGap()
+setItemName, onCreateView, onResume(), onPause(일시중지 null ),
+onDestroyView(), stopData(), resetData, register
+ initiate
