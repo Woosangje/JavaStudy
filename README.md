@@ -12,8 +12,13 @@ CarExam실습하기
 
 ★ 싱글턴 복습하기
 
+클래스에사용할 만한 네이밍
+show,  print , find, select, search , view, on
+ get, set, add, create,
+
+
 onCreate()
-.execute\n
+.execute
  addGroup , .addComponent , .addGap , .addContainerGap()
 setItemName, onCreateView, onResume(), onPause(일시중지 null ),
 onDestroyView(), stopData(), resetData, register
