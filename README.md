@@ -1,56 +1,48 @@
 # JavaStudy
-(int ... values)
-myCom.sum2(1,2,3,4,5); 로 ... 는 배열이 아니더라도 선언할수 있다.
+(int ... values)<br/>
+myCom.sum2(1,2,3,4,5); 로 ... 는 배열이 아니더라도 선언할수 있다.<br/>
 
-CarRunExam
+★ 싱글턴 복습하기<br/>
 
-CarRun
-
-주유소의 객체 결제, 경유,등유 체크
-
-CarExam실습하기
-
-★ 싱글턴 복습하기
-
-클래스에사용할 만한 네이밍
-show,  print , find, select, search , view, on
- get, set, add, create,
+클래스에사용할 만한 네이밍<br/>
+show,  print , find, select, search , view, on<br/>
+ get, set, add, create,<br/>
 
 
-onCreate()
-.execute
- addGroup , .addComponent , .addGap , .addContainerGap()
-setItemName, onCreateView, onResume(), onPause(일시중지 null ),
-onDestroyView(), stopData(), resetData, register
- initiate
+onCreate()<br/>
+.execute<br/>
+ addGroup , .addComponent , .addGap , .addContainerGap()<br/>
+setItemName, onCreateView, onResume(), onPause(일시중지 null ),<br/>
+onDestroyView(), stopData(), resetData, register<br/>
+ initiate<br/>
 
-12/22
-c생성, r읽기 u수정 d삭제
-DB pk, bno, mbo(맴버번호)
-상속은 Extended 로 클래스 이름짓는다.
+12/22<br/>
+
+c생성, r읽기 u수정 d삭제<br/>
+Create  Read  Update  Delete<br/>
+
+DB pk, bno, mbo(맴버번호)<br/>
+상속은 Extended 로 클래스 이름짓는다.<br/>
 
 
-★ 변조: 이름 중간글자를 *로 표시  (get메소드에서 설정)
-카페(중고나라) > 웹크롤링(로봇이 알아서 웹의 정보를 가져감)
-g*****@naver.com 으로 되어있지만 "연락처 보기"에서 제대로된 이메일을 볼수 있다.
+★ 변조: 이름 중간글자를 *로 표시  (get메소드에서 설정)<br/>
+카페(중고나라) > 웹크롤링(로봇이 알아서 웹의 정보를 가져감)<br/>
+g*****@naver.com 으로 되어있지만 "연락처 보기"에서 제대로된 이메일을 볼수 있다.<br/>
 
-상속에는 재정의가 있다.
+상속에는 재정의가 있다.<br/>
 
-★계좌번호 java파일 변경하기
+★계좌번호 java파일 변경하기<br/>
 
 스마트폰 만들기
 스마트폰 용 메뉴 만들기
 
-super();는 생략될수 있으며
-★자식 클래스에서 사용자생성자 선언시 매개변수에 
-super에다 선언할 매개변수도 선언해야한다.
+super();는 생략될수 있으며<br/>
+★자식 클래스에서 사용자생성자 선언시 매개변수에 <br/>
+super에다 선언할 매개변수도 선언해야한다.<br/>
 
-webBoard
-3시간 만들고 1시간설명
-2:14시작
+정상범위에 있는 것이 무결성이 있는것<br/>
+정상범위에 없으면 무결성오류<br/>
 
-기타 메소드는 main아래에다 생성하면 된다.
-로그인한다음 > 자유게시판, 상품 게시판 만들기
-게시판을 보기만 할수 있도록
-
+기타 메소드는 main아래에다 생성하면 된다.<br/>
+★ 빌드오류시 객체용 클래스에 변수값 선언했는지 확인
 자동타입변환, 강제타입변환
