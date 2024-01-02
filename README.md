@@ -49,3 +49,30 @@ super에다 선언할 매개변수도 선언해야한다.<br/>
 
 ★ 메서드에 abstract 선언안해도 기본값으로 적용된다.<br/>
 ★익명메소드 선언방법<br/>
+
+01/20<br/>
+다음주 오라클 DB 마리아DB mysql<br/>
+jsp<br/>
+
+01/02<br/>
+☆ 예외처리<br/>
+
+cmd > nslookup > www.daum.net > 주소확인 > www.naver.com<br/>
+e.printStackTrace();<br/>
+
+tap(Run) > run configuration > Arguments > 입력<br/>
+
+Surround With<br/>
+
+XXXException 키워드를 사용해야한다.<br/>
+
+// 사용자 지정 예외 처리<br/>
+//필수 : 기본생성자 + 사용자지정생성자(메시지 전달)<br/>
+
+Exception , Runtime<br/>
+
+예외처리 계속 써먹음<br/>
+
+사용자인터페이스는 안함(fx는 안함)<br/>
+477p
+
