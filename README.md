@@ -74,5 +74,33 @@ Exception , Runtime<br/>
 예외처리 계속 써먹음<br/>
 
 사용자인터페이스는 안함(fx는 안함)<br/>
-477p
+
+01/03
+방예약 프로그램 (여기어때, 캠핏)
+
+Scanner에 커서를 댄후 F1을 누르면 Help가 뜬다.
+Class Scanner페이지로 이동하면 마우스 오른쪽클릭 > 주소 복사해서 웹브라우저에서 볼수있다.
+
+//방법1 : Runnable 인터페이스를 사용하는 구현 클래스를 생성
+implements Runnable
+//방법2 : 다형성 -> Thread th = new Thread(Runnable target);
+
+☆ deprecated 노란색물결 잘안쓴다는뜻
+
+★★★ 동기화 메소드와 동기화블록
+★★ 동기화 메소드 임계 영역 설정 예) user1과,user2가 갚이 같을경우
+synchronized (this) 선언방법 해당 코드들을 드래그 > 마우스오른쪽 클릭> Surround With > 6. synchronized 클릭
+
+다이아몬드 연산자
+
+<T>는 "타입"이라 부른다.
+제네릭
+제네릭메서드, 실습
+
+★★★★★★ 컬렉션 프레임 워크
+배열보다 편하게 사용하려고
+List 컬렉션 외우기 
+clear()는 왠만하면 사용하지 않기 
+contains
+
 
