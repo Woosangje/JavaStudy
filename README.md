@@ -97,10 +97,47 @@ synchronized (this) 선언방법 해당 코드들을 드래그 > 마우스오른
 제네릭
 제네릭메서드, 실습
 
-★★★★★★ 컬렉션 프레임 워크
-배열보다 편하게 사용하려고
-List 컬렉션 외우기 
-clear()는 왠만하면 사용하지 않기 
-contains
+★★★★★★ 컬렉션 프레임 워크<br/>
+배열보다 편하게 사용하려고<br/>
+List 컬렉션 외우기 <br/>
+clear()는 왠만하면 사용하지 않기 <br/>
+contains<br/>
 
+01/04 <br/>
+★ 컬렉션 제네릭 자주 사용 <br/>
+hashset는 순서가 없다. (반복문에서 입력순서와 일치하지 않음) <br/>
+★ 하이라이트! Map 컬렉션 <br/>
+.containsKey(id) <br/>
+
+★ 프로퍼티파일만들기 <br/>
+D:\workspace\java-304\src\ch14\list\map > properties라고 폴더생성 <br/>
+택스트 생성 > 탭 보기에 확장명 체크할것 > txt파일명을 .properties로 변경 <br/>
+메모장으로 텍스트 열어서 입력 <br/>
+다른이름으로 저장 > 인코딩이 UTF-8 인지확인 & 모든파일형식으로 설정 <br/>
+이클립스 ch14.list 오른쪽 클릭 > Refresh클릭하면 properties가 보인다. > <br/>
+이클립스 properties에서 Exam생성 <br/>
+
+람다식 은 메서드가 무조건 하나 <br/>
+Invalid '@FunctionalInterface' annotation; MyFuncion is not a functional interface <br/>
+
+로컬 변수는 실무에서 별로 안씀 <br/>
+
+★ 컬렉션 중요 <br/>
+사용자인터페이스 x안배울거임 <br/>
+
+01/05
+ch15.io <br/>
+DB정보는 디스크에저장 <br/>
+Stream 붙으면 byte 기반 <br/>
+read()메서드는 int타입으로 간다. <br/>
+
+// read(byte[8], 2(off), 3(len)) <br/>
+// 8개의 배열을 선언하고 2번째부터 3개의 값을 가져온다. <br/>
+void flush() 중요 <br/>
+자바마스터489p 자주사용 <br/>
+
+os.flush(); // 저장시 필수 1 <br/>
+os.close(); // 저장시 필수 2 <br/>
+ <br/>
+부트스트랩 <br/>
 
