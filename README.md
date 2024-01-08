@@ -141,3 +141,105 @@ os.close(); // 저장시 필수 2 <br/>
  <br/>
 부트스트랩 <br/>
 
+
+
+0108<br/>
+최종목적은 JDBC를 배우기 위함(Java + DB)<br/>
+
+★ 네트워크형 데이터 모델 (취업하고도 공부해야함)<br/>
+
+졸업 한달전까지 최종브로젝트는 스프링부트로 마리아DB이용해서<br/>
+부장 부조장빼서 스프링을 이용한 프로젝트<br/>
+나머지 사람들은 스프링을 이용해서 개인프로젝트<br/>
+c언어 프로젝트, 파이썬 프로젝트<br/>
+
+sql 배우면 mysql, mariadb에서도 사용할수 있다.<br/>
+
+조회에는 두가지 선택적 조회, 전체 조회<br/>
+
+★★★★x25<br/>
+TCL(Transaction Control Language) 트랜젝션 데이터의 영구 저장 취소 등과 관련된 명령어<br/>
+
+31p 읽기<br/>
+기본키(pk)  유일한 값<br/>
+후보키(null x , 유일o, 유관성o) <br/>
+외래키(다른table의 기본키)  ★★★★★<br/>
+복합키<br/>
+
+오라클 실행시 메모리 가8이어야 한다.<br/>
+10-3DB용<br/>
+File > new x 새로 윈도우 설치 시간걸려서 안할거임<br/>
+
+10-1 > D > workspace > 304복사옮겨라<br/>
+
+10-1 탭에서 clone > 정품 >  아래 pull설정 > 이름 10-3(Oracle)로 변경<br/>
+오른쪽 하단 에서 " ip설정 편집"  101을 103으로 수정<br/>
+왼쪽 하단 시작 > 시스템 > 10-3으로 이름 바꾸기 > 다시시작<br/>
+
+게임같은거 깔은 pc는 권장하지 않음<br/>
+
+이번시간에는 OracleEnterPrise & Toad 를 사용 <br/>
+10-3바탕화면에다가 2개의 파일 붙여넣기<br/>
+나중에 OracleExpress 사용 <br/>
+Toad는 유료 <br/>
+
+10-3에서 OracleExpress > setup클릭 >그냥 예 > 이메일입력안함 ><br/>
+데이터베이스 생성 및 구성 > 데스크톱 클래스 > <br/>
+전역 데이터베이스 이름(G) 외우기 " orcl "<br/>
+패스워드는 임시로 oracle > 예 > 완료<br/>
+.NET Framwork 3.5 설치하기<br/>
+잘깔렸는지 확인하는법 cmd들어가서 sqlplus system/oracle 입력후 정보뜨는지 확인<br/>
+
+★ 키에 대한거 중요함<br/>
+
+sqlplus DB 접속명령어<br/>
+
+스콧이라는 사용자 계정을 바꾸겟다.<br/>
+
+ACCOUNT Unlock 계정을 풀어라<br/>
+
+connext scott/tiger;<br/>
+exit;<br/>
+
+☆ <br/>
+; 만 넘어간다.<br/>
+오타나면 그냥 세미콜론으로 enter치기<br/>
+
+desc emp; //자주사용<br/>
+VARCHAR2는 한글안된<br/>
+N이붙어야 한글가능<br/>
+NUMBER(숫자7개 , 소수점 2자리<br/>
+
+select * from emp;<br/>
+
+DESC 기억하기<br/>
+DB를 편하게 사용하려고 TOAD사용<br/>
+
+★ 토드 설치(KEY)
+관리자 권한으로 실행 > 전부 INSTALL > 설치다되면 개구리보임<br/>
+Toad for Oracle 13.1.1 > Skip This Version(업데이트 하지않기)<br/>
+> ORCL > Save password > Add Login Record ( 아이디랑패스워드 소문자)<br/>
+왼쪽상단 탭 콘센트 이미지 아이콘 클릭 > 계정이랑 database 입력<br/>
+
+저장할까요 질문한 내용은 DB가 아닌 메모장에 저장되는것<br/>
+desc emp; 입력후 드래그 ctrl + enter<br/>
+★ 오라클 잘지워야 한다.<br/>
+* 는 모든것을 대체<br/>
+emp의 모든것을 가져와라<br/>
+
+외울거 있음 [select 필드 , * ] from [테이블] where [조건문] ;<br/>
+where는 조건문<br/>
+
+★★★★ 조인 대게중요<br/>
+열조회 4-4<br/>
+IDSTINCT, 셀연산식<br/>
+쌍따음표 4개사용할경우 내부 따음표는 따음표로 변경<br/>
+정렬할때 <br/>
+BETWEEN A AND B A에서 B까지<br/>
+Like연산 자주 사용<br/>
+123p쭉하고 외우기<br/>
+연습문제도 풀어보기<br/>
+하면서 주석달기 주석은 -- (단축키는 ctrl + B)<br/>
+자바 붙일때 집중해야한다.<br/>
+
+
