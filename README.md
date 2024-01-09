@@ -178,7 +178,7 @@ File > new x 새로 윈도우 설치 시간걸려서 안할거임<br/>
 
 게임같은거 깔은 pc는 권장하지 않음<br/>
 
-이번시간에는 OracleEnterPrise & Toad 를 사용 <br/>
+●●● 이번시간에는 OracleEnterPrise & Toad 를 사용 <br/>
 10-3바탕화면에다가 2개의 파일 붙여넣기<br/>
 나중에 OracleExpress 사용 <br/>
 Toad는 유료 <br/>
