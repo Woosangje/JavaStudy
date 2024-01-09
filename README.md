@@ -17,25 +17,16 @@ onDestroyView(), stopData(), resetData, register<br/>
  initiate<br/>
 
 12/22<br/>
-
-c생성, r읽기 u수정 d삭제<br/>
-Create  Read  Update  Delete<br/>
+c생성, r읽기 u수정 d삭제  Create  Read  Update  Delete<br/>
 
 DB pk, bno, mbo(맴버번호)<br/>
 상속은 Extended 로 클래스 이름짓는다.<br/>
-
 
 ★ 변조: 이름 중간글자를 *로 표시  (get메소드에서 설정)<br/>
 카페(중고나라) > 웹크롤링(로봇이 알아서 웹의 정보를 가져감)<br/>
 g*****@naver.com 으로 되어있지만 "연락처 보기"에서 제대로된 이메일을 볼수 있다.<br/>
 
 상속에는 재정의가 있다.<br/>
-
-★계좌번호 java파일 변경하기<br/>
-
-스마트폰 만들기
-스마트폰 용 메뉴 만들기
-
 super();는 생략될수 있으며<br/>
 ★자식 클래스에서 사용자생성자 선언시 매개변수에 <br/>
 super에다 선언할 매개변수도 선언해야한다.<br/>
@@ -51,12 +42,9 @@ super에다 선언할 매개변수도 선언해야한다.<br/>
 ★익명메소드 선언방법<br/>
 
 01/20<br/>
-다음주 오라클 DB 마리아DB mysql<br/>
-jsp<br/>
+다음주 오라클 DB 마리아DB mysql jsp<br/>
 
 01/02<br/>
-☆ 예외처리<br/>
-
 cmd > nslookup > www.daum.net > 주소확인 > www.naver.com<br/>
 e.printStackTrace();<br/>
 
@@ -70,14 +58,11 @@ XXXException 키워드를 사용해야한다.<br/>
 //필수 : 기본생성자 + 사용자지정생성자(메시지 전달)<br/>
 
 Exception , Runtime<br/>
-
 예외처리 계속 써먹음<br/>
-
 사용자인터페이스는 안함(fx는 안함)<br/>
 
 01/03
 방예약 프로그램 (여기어때, 캠핏)
-
 Scanner에 커서를 댄후 F1을 누르면 Help가 뜬다.
 Class Scanner페이지로 이동하면 마우스 오른쪽클릭 > 주소 복사해서 웹브라우저에서 볼수있다.
 
@@ -91,11 +76,7 @@ implements Runnable
 ★★ 동기화 메소드 임계 영역 설정 예) user1과,user2가 갚이 같을경우
 synchronized (this) 선언방법 해당 코드들을 드래그 > 마우스오른쪽 클릭> Surround With > 6. synchronized 클릭
 
-다이아몬드 연산자
-
-<T>는 "타입"이라 부른다.
-제네릭
-제네릭메서드, 실습
+다이아몬드 연산자 <T>는 "타입"이라 부른다.
 
 ★★★★★★ 컬렉션 프레임 워크<br/>
 배열보다 편하게 사용하려고<br/>
@@ -126,7 +107,6 @@ Invalid '@FunctionalInterface' annotation; MyFuncion is not a functional interfa
 사용자인터페이스 x안배울거임 <br/>
 
 01/05
-ch15.io <br/>
 DB정보는 디스크에저장 <br/>
 Stream 붙으면 byte 기반 <br/>
 read()메서드는 int타입으로 간다. <br/>
@@ -138,9 +118,7 @@ void flush() 중요 <br/>
 
 os.flush(); // 저장시 필수 1 <br/>
 os.close(); // 저장시 필수 2 <br/>
- <br/>
 부트스트랩 <br/>
-
 
 
 0108<br/>
@@ -166,7 +144,7 @@ TCL(Transaction Control Language) 트랜젝션 데이터의 영구 저장 취소
 외래키(다른table의 기본키)  ★★★★★<br/>
 복합키<br/>
 
-오라클 실행시 메모리 가8이어야 한다.<br/>
+오라클 실행시 메모리가 8이어야 한다.<br/>
 10-3DB용<br/>
 File > new x 새로 윈도우 설치 시간걸려서 안할거임<br/>
 
@@ -179,11 +157,10 @@ File > new x 새로 윈도우 설치 시간걸려서 안할거임<br/>
 게임같은거 깔은 pc는 권장하지 않음<br/>
 
 ●●● 이번시간에는 OracleEnterPrise & Toad 를 사용 <br/>
-10-3바탕화면에다가 2개의 파일 붙여넣기<br/>
-나중에 OracleExpress 사용 <br/>
-Toad는 유료 <br/>
+ 10-3바탕화면에다가 OracleEnterPrise & Toad  파일 붙여넣기<br/>
+ 나중에 OracleExpress 사용, Toad는 유료 <br/>
 
-10-3에서 OracleExpress > setup클릭 >그냥 예 > 이메일입력안함 ><br/>
+10-3에서 OracleExpress > setup클릭 > 그냥 예 > 이메일입력안함 ><br/>
 데이터베이스 생성 및 구성 > 데스크톱 클래스 > <br/>
 전역 데이터베이스 이름(G) 외우기 " orcl "<br/>
 패스워드는 임시로 oracle > 예 > 완료<br/>
@@ -201,8 +178,7 @@ ACCOUNT Unlock 계정을 풀어라<br/>
 connext scott/tiger;<br/>
 exit;<br/>
 
-☆ <br/>
-; 만 넘어간다.<br/>
+☆ ; 만 넘어간다  <br/>
 오타나면 그냥 세미콜론으로 enter치기<br/>
 
 desc emp; //자주사용<br/>
@@ -235,27 +211,23 @@ where는 조건문<br/>
 IDSTINCT, 셀연산식<br/>
 쌍따음표 4개사용할경우 내부 따음표는 따음표로 변경<br/>
 정렬할때 <br/>
-BETWEEN A AND B A에서 B까지<br/>
-Like연산 자주 사용<br/>
+★ BETWEEN A AND B A에서 B까지, Like연산 자주 사용<br/>
 123p쭉하고 외우기<br/>
-연습문제도 풀어보기<br/>
 하면서 주석달기 주석은 -- (단축키는 ctrl + B)<br/>
 자바 붙일때 집중해야한다.<br/>
 
 01/09
-like 자주쓰임, 실습할때는 express설치할거임<br/>
+실습할때는 express설치할거임<br/>
 express에는 SCOTT 계정이 없음<br/>
 208P 해보라고 하면 이해잘 못함<br/>
 PIVOT은 행렬을 뒤집어버리는거<br/>
 UNPIVOT은 뒤집었던걸 원복하는거<br/>
 ★ 여러테이블을 하나의 테이블처럼 사용하는 조인<br/>
 
-듀얼 = 버츄얼<br/>
-듀얼은 실체는 없음 가짜로 테스트용으로 빼는 가짜 테이블<br/>
+듀얼 = 버츄얼,  듀얼은 실체는 없음 가짜로 테스트용으로 빼는 가짜 테이블<br/>
 
 ERD<br/>
-토드 > 탭 DATABASE > REPORT > ER<br/>
-콘센트 아이콘에서 SCOTT계정확인 > 민트색 + 아이콘 누르고 4개다 체크하고 OK<br/>
+★ 토드 실행 방법: 토드 > 탭 DATABASE > REPORT > ER > 콘센트 아이콘에서 SCOTT계정확인 > 민트색 + 아이콘 누르고 4개다 체크하고 OK<br/>
 
 ★ scott이미지 참조하기<br/>
 inner 조인이 제일중요 (다른테이블에서 당겨오는게 중요)<br/>
