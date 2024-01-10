@@ -240,3 +240,32 @@ ename이 king은 직급이 최고라 사원번호가 없음<br/>
 조장이 join용으로 문제 5개 제출 다같이 풀어보자<br/>
 
 
+01/10<br/>
+Left Outer  join 자주사용<br/>
+★ 09-1 서브쿼리, in연산자<br/>
+240~263p까지<br/>
+셀렉트문<br/>
+
+★10-1<br/>
+정의란 테이블이나 사용자, DB일수도 있음<br/>
+
+Select, Insert, Update, Delete<br/>
+Scott계정인지 확인 <br/>
+ctrl + d눌러보기 > Specify > table > SCOTT > Object Name : BONUS<br/>
+Object Name에서 4가지 전부 생성하기<br/>
+
+Commit은 영구저장 Rollback은 돌아기기<br/>
+'' 또는 NULL이 라도 넣어줘야 한다. ""는 널취급<br/>
+
+create table DEPT_TEMP as select * from DEPT; --dept 사본 생성<br/>
+drop table DEPT_TEMP ; -- 테이블 삭제용<br/>
+
+289p까지 시간남으면 <br/>
+프로젝트.hwp 금요일에시작?<br/>
+★★★ 조작어 DML(외워야할 10가지)<br/>
+
+Select  필드,*  from 테이블 Where 조건문 ;<br/>
+Insert info 테이블명 value 값1,값2,값3...<br/>
+update 테이블 Set 필드값 Where 조건 ;<br/>
+Delete 	from 테이블 where 조건 ;<br/>
+
