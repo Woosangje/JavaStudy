@@ -269,3 +269,31 @@ Insert info 테이블명 value 값1,값2,값3...<br/>
 update 테이블 Set 필드값 Where 조건 ;<br/>
 Delete 	from 테이블 where 조건 ;<br/>
 
+01/11<br/>
+조장은 db의 권한을 공유하면 안됨<br/>
+DDL에서 crud가 존재함<br/>
+★DDL 정의(객체)<br/>
+C DB create<br/>
+R table select<br/>
+U usdr alter<br/>
+D	drop user<br/>
+
+★DCL 제어<br/>
+권한부여<br/>
+권한제거<br/>
+Commit<br/>
+roll back<br/>
+
+프로젝트.hwp<br/>
+connect / as sysdba 가 아니라 sqlplus system/oracle<br/>
+GRANT 는 권한부여<br/>
+
+제약조건(constraint)<br/>
+
+★ 364p 제약조건 실습 자주사용함<br/>
+(이름이 없으면 오라클이 자동으로 만들어 준다.)<br/>
+팀프로젝트할때 내가 한걸 ppt에 넣어야한다.<br/>
+★ Foreign 키 중요 <br/>
+CASCADE 되도록 사용하지 않는게 좋음<br/>
+
+394P까지<br/>
